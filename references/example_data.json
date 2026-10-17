@@ -1,0 +1,91 @@
+{
+  "title": "文献总结",
+  "subtitle": "示例 · 仅示结构，内容为占位",
+  "sections": [
+    {
+      "title": "一、文献名片",
+      "level": 1,
+      "content": [
+        {
+          "type": "table",
+          "title": "表1 文献名片",
+          "headers": ["项目", "内容"],
+          "rows": [
+            ["题目", "原文英文全题 Example Title of the Paper"],
+            ["作者", "X. Yu, T. Li* et al."],
+            ["期刊", "J. Am. Chem. Soc. 2026, 148(37), 40511-40520"],
+            ["DOI", "10.xxxx/xxxxx"],
+            ["文献类型", "研究论文"],
+            ["影响因子 / 分区", "影响因子 X.X（2024 JCR，Clarivate）；中科院分区 化学 1 区 Top（2025）"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "二、主要内容概括",
+      "level": 1,
+      "content": [
+        {"type": "paragraph", "text": "作者以<策略>构建了<体系>，主用<方法>表征。<关键结果一>；<关键结果二>。结论支持<判断>，应用侧落在<场景>。"}
+      ]
+    },
+    {
+      "title": "三、创新点",
+      "level": 1,
+      "content": [
+        {"type": "paragraph", "text": "该文有两点创新。"}
+      ]
+    },
+    {
+      "title": "创新点1：<一句话命名>",
+      "level": 3,
+      "content": [
+        {"type": "paragraph", "text": "相对于：<对标的已有工作或常规做法>。"},
+        {"type": "paragraph", "text": "新在　：<具体不同点>。"},
+        {"type": "paragraph", "text": "证据　：<Fig. X / Table Y 支持；直接还是间接，对照是否完整>。"}
+      ]
+    },
+    {
+      "title": "创新点2：<一句话命名>",
+      "level": 3,
+      "content": [
+        {"type": "paragraph", "text": "相对于：<…>。"},
+        {"type": "paragraph", "text": "新在　：<…>。"},
+        {"type": "paragraph", "text": "证据　：<…>。"}
+      ]
+    },
+    {
+      "title": "四、可借鉴到本课题",
+      "level": 1,
+      "content": [
+        {"type": "paragraph", "text": "以下两点可直接迁移。"}
+      ]
+    },
+    {
+      "title": "可借鉴点1：<一句话>",
+      "level": 3,
+      "content": [
+        {"type": "paragraph", "text": "用在　：<本课题哪个样品体系或实验环节>。"},
+        {"type": "paragraph", "text": "解决　：<当前的具体困难，指到现象>。"},
+        {"type": "paragraph", "text": "做法　：<投料、条件、观察指标、时间点>。"},
+        {"type": "paragraph", "text": "性质　：可直接照搬 / 需改造 / 仅作思路参考。"}
+      ]
+    },
+    {
+      "title": "可借鉴点2：<一句话>",
+      "level": 3,
+      "content": [
+        {"type": "paragraph", "text": "用在　：<…>。"},
+        {"type": "paragraph", "text": "解决　：<…>。"},
+        {"type": "paragraph", "text": "做法　：<…>。"},
+        {"type": "paragraph", "text": "性质　：<…>。"}
+      ]
+    },
+    {
+      "title": "图1 原文 Fig. 4 光异构与疲劳循环（引自原文）",
+      "level": 3,
+      "content": [
+        {"type": "image", "image_path": "C:\\path\\to\\figure.png", "caption": "图1 原文 Fig. 4 光异构与疲劳循环（引自原文）"}
+      ]
+    }
+  ]
+}
